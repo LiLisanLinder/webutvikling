@@ -1,6 +1,6 @@
 Vår nettside skal informere om et gitt antall reise typer. Vi skal altså ikke selge noe men mer fungere som en opplysningstjenst, som gjør det lettere for folk at finne en destinasjon som passer deres ønsker for reisen.
 Denne skal kalles for: ""
-Vi har valgt å rikte inn oss på målgruppen "unge voksne", som er reiselystne. 
+Vi har valgt å rette oss inn på målgruppen "unge voksne", som er reiselystne. 
 
 Vi så for oss en meny, med 4 menypunkter. HJEM, DESTINASJONER(med dropdown meny som gir en oversikt over de 6 mulige reisegruppene), POPULÆRE REISER og KONTAKT OSS.
 Vi tenkte å sette inn en liten logo i høyre hjørnet av menyen. Vi har laget en brukervenlig meny som er lett å bruke. Menyen skal være "fixed" slik at den følger brukeren når man scroller nedover, slik at man lett kan finne frem til menyen igjen.
