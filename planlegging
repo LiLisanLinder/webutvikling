@@ -1,0 +1,44 @@
+Vår nettside skal informere om et gitt antall reise typer. Vi skal altså ikke selge noe men mer fungere som en opplysningstjenst, 
+som gjør det lettere for folk at finne en destinasjon som passer deres ønsker for reisen.
+Denne skal kalles for: ""
+Vi har valgt å rette oss inn på målgruppen "unge voksne", som er reiselystne. 
+
+Vi så for oss en meny, med 4 menypunkter. HJEM, DESTINASJONER(med dropdown meny som gir en oversikt over de 6 mulige reisegruppene), 
+POPULÆRE REISER og KONTAKT OSS.
+Vi tenkte å sette inn en liten logo i høyre hjørnet av menyen. Vi har laget en brukervenlig meny som er lett å bruke. 
+Menyen skal være "fixed" slik at den følger brukeren når man scroller nedover, slik at man lett kan finne frem til menyen igjen.
+
+Header: Headeren blir et større bilde, med slagordet vårt i høyre hjørne. ("Opplev verden!")
+
+Vi har valgt 6 spesifikke reise typer, hvor vi under hver reisetype anbefaler destinasjoner som passer.
+Safari ->
+Sol og bad ->
+Storby ferie ->
+Ski ferie ->
+Sightseeing ->
+Adrenalin ->
+
+Disse er delt inn i 6 ulike bokser, der det er 3 i hver bredde. Det skal være et bilde på vær av boksene som representerer de 6 ulike kategoriene. 
+Først og frem er det kun bilder, men dersom du holder musepekeren over bildene vil det komme opp er kort beskrivelse av de ulike kategoriene. 
+
+På nettsiden skal vi også linke til sosiale medier slik som; facebook, twitter, instagram. Her skal vi opprette ekte sider som man kan gå inn på.
+Vi skal også ha en konvelutt der man kommer direkte til mail, slik at man lett kan stille spørsmål direkte til oss.
+Alt dette vil ligge i footeren. 
+
+footer 2: RSS, kontakt info og copyright.
+
+Mobilversjon:
+Den skal være ganske lik, men med noen endreinger.
+Menyen vil bestå av en "hamburger-meny" den skal fortsatt være "fikxed".
+
+Hederen blir det samme, men mindre oppløsning.
+
+Boksene blir det samme, bare en og en i bredden.
+
+Footeren blir det samme som på pc, bare i mindre oppløsning.
+
+Footer 2 blir lagt underhverandre. 
+Grunnen til at ting blir lagt under hverandre på moilversjonen er for at skjermen på mobilen er mye mindre, og ville ikke blitt brukervennlig
+dersom det skulle hvert så lite. 
+
+
