@@ -1,19 +1,6 @@
 body {
   padding-top: 50px;
 }
-
-p {
-	text-align: center;
-	font-family: verdana;
-	font-size: 20px;
-}
-section{
-	height: auto;
-	width: 300px;
-	background-color: lightblue;
-	margin-left: 100px; 
-	margin-bottom: 100px;
-}
 .starter-template {
   padding: 40px 15px;
   text-align: center;
@@ -61,15 +48,9 @@ header {
     text-shadow: 0 0 10px #000;
     color: #fff;
 }
-#portfolio *{
-  z-index:2;
-}
 #portfolio .portfolio-item {
   margin: 0 0 15px;
   right: 0;
-  max-height: 400px;
-  overflow: hidden;
-
 }
 #portfolio .portfolio-item .portfolio-link {
   display: block;
