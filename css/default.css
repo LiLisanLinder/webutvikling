@@ -98,8 +98,14 @@ header {
   }
 
 footer{
-  text-align: center;
-  min-height: 300px;
-  background: #666;
+  min-height: 200px;
+  background: #0d202d;
   color: #fff;
+}
+.footer_item{
+  border-left: 1px solid #eee;
+  padding: 50px 20px;
+}
+.footer_item:first-child{
+  border-left:none;
 }
