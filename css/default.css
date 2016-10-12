@@ -1,6 +1,31 @@
 body {
   padding-top: 50px;
 }
+<<<<<<< HEAD
+=======
+
+p {
+	text-align: center;
+	font-family: verdana;
+	font-size: 20px;
+}
+.kontaktboks{
+	height: auto;
+	width: 300px;
+	background-color: lightblue;
+	margin-left: 100px; 
+	margin-bottom: 100px;
+}
+.kontaktboks2{
+	height: 100px;
+	width: 300px;
+	background-color: lightblue;
+	margin-left: 100px; 
+	margin-bottom: 100px;
+	
+}
+
+>>>>>>> origin/master
 .starter-template {
   padding: 40px 15px;
   text-align: center;
