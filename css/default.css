@@ -1,6 +1,19 @@
 body {
   padding-top: 50px;
 }
+
+p {
+	text-align: center;
+	font-family: verdana;
+	font-size: 20px;
+}
+section{
+	height: auto;
+	width: 300px;
+	background-color: lightblue;
+	margin-left: 100px; 
+	margin-bottom: 100px;
+}
 .starter-template {
   padding: 40px 15px;
   text-align: center;
