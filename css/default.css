@@ -102,11 +102,11 @@ header {
   }
 
 footer{
-  text-align: center;
-  min-height: 300px;
-  background: #666;
+  min-height: 200px;
+  background: #0d202d;
   color: #fff;
 }
+<<<<<<< HEAD
 
 .btn-outline:hover,
 .btn-outline:focus,
@@ -190,4 +190,12 @@ footer{
 .portfolio-modal .modal-backdrop {
   opacity: 0;
   display: none;
+=======
+.footer_item{
+  border-left: 1px solid #eee;
+  padding: 50px 20px;
+}
+.footer_item:first-child{
+  border-left:none;
+>>>>>>> origin/master
 }
