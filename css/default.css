@@ -14,6 +14,7 @@ p {
 	height: 200px;
 	background: white;
 	border-left: 10px solid white;
+	
 }
 
 .bokser .kontaktboks{
@@ -22,11 +23,13 @@ p {
 	height: 160px;
 	background: lightblue;
 	border-right: 10px solid white;
+	border-radius: 4px;
 }
 .bokser .kontaktboks2{
 	float: none;
 	height: 160px;
 	background: lightblue;
+	border-radius: 4px;
 	
 }
 
