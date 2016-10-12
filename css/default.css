@@ -1,0 +1,57 @@
+body {
+  padding-top: 50px;
+}
+.starter-template {
+  padding: 40px 15px;
+  text-align: center;
+}
+.navbar{
+
+}
+.navbar-inverse{
+  background: #003a4a;
+  border: none;
+}
+.navbar-fixed-top{
+  box-shadow: 0 0 8px 1px rgba(0,0,0,0.3);
+}
+.navbar-header{
+  padding: 10px;
+  background: #003a4a;
+  height:50px;
+  margin-bottom: -15px;
+}
+.nav{
+  float: right;
+}
+
+header {
+  display: block;
+  margin-bottom:50px;
+}
+
+.business-header {
+    height: 400px;
+    background: url('http://placehold.it/1920x400') center center no-repeat scroll;
+}
+
+.slagord {
+	position: relative;
+	padding-right: 15px;
+	padding-left: 15px;
+	padding-top: 10px;
+
+}
+
+/*Skygge på overskriften/slagordet*/
+.skygge {
+    text-shadow: 0 0 10px #000;
+    color: #fff;
+}
+
+footer{
+  text-align: center;
+  min-height: 300px;
+  background: #666;
+  color: #fff;
+}
