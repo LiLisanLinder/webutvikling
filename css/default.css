@@ -1,19 +1,6 @@
 body {
   padding-top: 50px;
 }
-
-p {
-	text-align: center;
-	font-family: verdana;
-	font-size: 20px;
-}
-.kontaktboks{
-	height: auto;
-	width: 300px;
-	background-color: lightblue;
-	margin-left: 100px; 
-	margin-bottom: 100px;
-}
 .starter-template {
   padding: 40px 15px;
   text-align: center;
@@ -61,16 +48,8 @@ header {
     text-shadow: 0 0 10px #000;
     color: #fff;
 }
-#portfolio *{
-  z-index:2;
-}
-#portfolio .portfolio-item {
-  margin: 0 0 15px;
-  right: 0;
-  max-height: 400px;
-  overflow: hidden;
 
-}
+
 #portfolio .portfolio-item .portfolio-link {
   display: block;
   position: relative;
@@ -114,17 +93,19 @@ header {
 #portfolio * {
   z-index: 2;
 }
-@media (min-width: 767px) {
-  #portfolio .portfolio-item {
-    margin: 0 0 30px;
-  }
 
 footer{
   min-height: 200px;
   background: #0d202d;
   color: #fff;
 }
-<<<<<<< HEAD
+.footer_item{
+  border-left: 1px solid #eee;
+  padding: 50px 20px;
+}
+.footer_item:first-child{
+  border-left:none;
+}
 
 .btn-outline:hover,
 .btn-outline:focus,
@@ -208,12 +189,4 @@ footer{
 .portfolio-modal .modal-backdrop {
   opacity: 0;
   display: none;
-=======
-.footer_item{
-  border-left: 1px solid #eee;
-  padding: 50px 20px;
-}
-.footer_item:first-child{
-  border-left:none;
->>>>>>> origin/master
 }
