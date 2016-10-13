@@ -1,3 +1,32 @@
+/*==================FONTS==================*/
+
+@font-face {
+    font-family: "Myriad";
+    font-style: normal;
+    font-weight: normal;
+    src: url("../fonts/MyriadPro-Light.otf") format("opentype");
+}
+@font-face {
+    font-family: "GeosansLight";
+    src: url("../fonts/GeosansLight.ttf") format("truetype");
+    font-style: normal;
+    font-weight: normal;
+}
+@font-face {
+    font-family: "GeosansOblique";
+    src: url("../fonts/GeosansLight-Oblique.ttf") format("truetype");
+    font-style: normal;
+    font-weight: normal;
+}
+@font-face {
+    font-family: "Futura";
+    src: url("../fonts/Futura.ttf") format("truetype");
+    font-style: normal;
+    font-weight: normal;
+}
+
+/*==================OBLIG3 TEMPLATE==================*/
+
 body {
   padding-top: 50px;
 }
@@ -5,61 +34,102 @@ body {
   padding: 40px 15px;
   text-align: center;
 }
-.navbar{
+/*==================NAVIGATION==================*/
 
+.navbar-custom{
+  background: #003a4a url("../img/bg.png") repeat scroll left top;
+  border: rgba(0,0,0,0);
+  padding: 15px 0;
 }
-.navbar-inverse{
-  background: #003a4a;
-  border: none;
+.navbar-default .navbar-nav > li > a{
+  color: #fff;
+  background: rgba(0,0,0,0);
+  transition: padding 0.9s ease 0s;
 }
+.navbar-default .navbar-nav > li > a:hover,
+.navbar-default .navbar-nav > li > a:focus {
+  color: #f5f5f5;
+  background-color: transparent;
+}
+.navbar-default .navbar-nav > .active > a,
+.navbar-default .navbar-nav > .active > a:focus,
+.navbar-default .navbar-nav > .active > a:hover{
+  background: none;
+  color: #c7ebe5;
+  border-bottom:2px solid #c7ebe5;
+}
+
 .navbar-fixed-top{
-  box-shadow: 0 0 8px 1px rgba(0,0,0,0.3);
+  /*box-shadow: 0 0 10px 3px rgba(0,0,0,0.3);*/
+}
+#navbar{
+  float: right;
+  font-family: "Futura", sans-serif;
+  text-transform: uppercase;
 }
 .navbar-header{
-  padding: 10px;
-  background: #003a4a;
-  height:50px;
-  margin-bottom: -15px;
+  background: rgba(0,0,0,0);
 }
-.nav{
-  float: right;
+.navbar-brand{
+  margin-left: 15px;
+  margin-bottom: -3px;
+  background: rgba(255,255,255,0);
 }
-#social{
-  padding:15px 30px;
-  background:#1d6366;
-  margin-top: 50px;
-  width: 100%;
+.fa-plane{
+  font-size: 35px;
+  color: #fff;
 }
-.social-item{
-  height: 70px;
-  margin: auto;
+.navbar-inverse .navbar-nav > li > a{
+  color:#fff;
 }
-.glyphicon-cloud{
-    color: #003a4a;
-    font-size: 70px;
-    line-height: 70px;
-}
+
+/*==================HEADER==================*/
+
 header {
   display: block;
-  margin-bottom:50px;
+  margin:0 0 50px;
+  box-shadow: 0 15px 15px -14px rgba(0,0,0,0.5);
+
 }
-.business-header {
+.custom-header {
     height: 400px;
     background: url("palmer.jpg") center center no-repeat scroll;
 }
 .slagord {
 	position: relative;
 	padding-right: 15px;
-	padding-left: 15px;
-	padding-top: 10px;
+	padding-left: 55%;
+	padding-top: 5%;
 }
-
+.slagord h1{
+  font-family: "Futura", sans-serif;
+}
 /*Skygge på overskriften/slagordet*/
 .skygge {
-    text-shadow: 0 0 10px 5px rgba(0,0,0,0.6);
+    text-shadow: 0 2px 5px rgba(0,0,0,0.8);
     color: #fff;
 }
+.glossy:after {
+    background: -moz-linear-gradient(center top , rgba(255, 255, 255, 0.7) 0%, rgba(255, 255, 255, 0.1) 100%) repeat scroll 0 0 rgba(0, 0, 0, 0);
+    border-radius: 20px;
+    content: " ";
+    height: 50%;
+    left: 0;
+    position: absolute;
+    top: 0;
+    width: 100%;
+}
+.glossy {
+    border-radius: 20px;
+    box-shadow: 0 -1px 0 rgba(0, 0, 0, 0.5) inset;
+}
+/*==================PORTFOLIO==================*/
 
+#portfolio {
+  padding:50px 0 50px;
+  width: 80%;
+  margin:auto;
+}
 #portfolio .portfolio-item {
   margin: 0 0 15px;
 }
@@ -69,9 +139,10 @@ header {
 }
 #portfolio .portfolio-item img{
   margin: auto;
+  box-shadow: 0px 0px 15px rgba(0, 58, 74, 0.2);
 }
 #portfolio .portfolio-item .portfolio-link .caption {
-  background: rgba(46, 147, 151, 0.9);
+  background: rgba(0, 58, 74, 0.9);
   position: absolute;
   width: 100%;
   height: 100%;
@@ -88,7 +159,7 @@ header {
   position: absolute;
   width: 100%;
   height: 20px;
-  font-size: 20px;
+  font-size: 12px;
   text-align: center;
   top: 50%;
   margin-top: -12px;
@@ -101,26 +172,14 @@ header {
 #portfolio .portfolio-item .portfolio-link .caption .caption-content h3,
 #portfolio .portfolio-item .portfolio-link .caption .caption-content h4 {
   margin: 0;
-
+}
+#portfolio .portfolio-item .portfolio-link .caption .caption-content p {
+  padding: 0 15px 0;
+  font-size: 14px;
 }
 #portfolio * {
   z-index: 2;
 }
-
-footer{
-  min-height: 200px;
-  background: #0d202d;
-  color: #fff;
-}
-.footer_item{
-  border-left: 1px solid rgba(0,0,0,0.5);
-
-  padding: 50px 20px;
-}
-.footer_item:first-child{
-  border-left:none;
-}
-
 .btn-outline:hover,
 .btn-outline:focus,
 .btn-outline:active,
@@ -203,4 +262,64 @@ footer{
 .portfolio-modal .modal-backdrop {
   opacity: 0;
   display: none;
+}
+
+/*==================SOCIAL==================*/
+
+#social{
+  background:rgba(46, 147, 151, 1);
+}
+.flex-container-rowAlign{
+  display: -webkit-flex;
+  display: flex;
+  -webkit-flex-wrap: wrap;
+  flex-wrap: wrap;
+  width: 100%;
+  min-height: 30px;
+}
+.flex-social{
+  padding: 15px;
+  margin: 20px 35px 20px;
+  margin: auto;
+  text-align: center;
+}
+.fa-facebook{
+  color: #fff;
+  font-size: 50px;
+}
+.fa-twitter{
+  color: #fff;
+  font-size: 50px;
+}
+.fa-instagram{
+  color: #fff;
+  font-size: 50px;
+}
+.fa-envelope{
+  color: #fff;
+  font-size: 50px;
+}
+/*==================FOOTER==================*/
+
+footer{
+  background: #0d202d;
+  color: #fff;
+  padding:30px 15px;
+  min-height: 100px;
+}
+.footer-item {
+  border-left: 1px solid rgba(255,255,255,0.5);
+  padding: 20px;
+}
+.footer-item:first-child{
+  border-left:rgba(0,0,0,0);
+}
+footer h3{
+  font-family: "Myriad", sans-serif;
+  color:#fff;
+  font-size: 16px;
+}
+footer p{
+  font-family: "Myriad", sans-serif;
+  color:#f9f9f9;
 }
