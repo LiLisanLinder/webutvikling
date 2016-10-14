@@ -126,11 +126,11 @@ header {
 
 #portfolio {
   padding:50px 0 50px;
-  width: 80%;
+  width: 68%;
   margin:auto;
 }
 #portfolio .portfolio-item {
-  margin: 0 0 15px;
+  margin: 0 0 30px;
 }
 #portfolio .portfolio-item .portfolio-link {
   display: block;
@@ -138,7 +138,7 @@ header {
 }
 #portfolio .portfolio-item img{
   margin: auto;
-  box-shadow: 0px 0px 15px rgba(0, 58, 74, 0.2);
+  box-shadow: 0 0 20px -5px rgba(0, 58, 74, 0.7);
 }
 #portfolio .portfolio-item .portfolio-link .caption {
   background: rgba(0, 58, 74, 0.9);
