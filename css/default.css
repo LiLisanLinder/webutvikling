@@ -324,6 +324,10 @@ footer .fa-envelope{
   font-size: 25px;
   margin-right:10px;
 }
+.fa-rss{
+  color:orange;
+  font-size: 25px;
+}
 /*==================FOOTER==================*/
 
 footer{
