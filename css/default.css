@@ -308,9 +308,20 @@ header {
   color: #fff;
   font-size: 50px;
 }
-.fa-envelope{
+#social .fa-envelope{
   color: #fff;
   font-size: 50px;
+}
+footer .fa-envelope{
+  color: #fff;
+  font-size: 15px;
+  margin-right:10px;
+
+}
+.fa-mobile{
+  color: #fff;
+  font-size: 25px;
+  margin-right:10px;
 }
 /*==================FOOTER==================*/
 
@@ -322,7 +333,7 @@ footer{
 }
 .footer-item {
   border-left: 1px solid rgba(255,255,255,0.5);
-  padding: 20px;
+  padding: 20px 40px;
 }
 .footer-item:first-child{
   border-left:rgba(0,0,0,0);
@@ -330,7 +341,9 @@ footer{
 footer h3{
   font-family: "Myriad", sans-serif;
   color:#fff;
-  font-size: 16px;
+  font-size: 14px;
+  text-align: left;
+  font-weight: bold;
 }
 footer p{
   font-family: "Myriad", sans-serif;
