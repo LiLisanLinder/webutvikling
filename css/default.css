@@ -334,11 +334,12 @@ footer{
   background: #0d202d;
   color: #fff;
   padding:30px 15px;
-  min-height: 100px;
+  min-height: 150px;
 }
 .footer-item {
   border-left: 1px solid rgba(255,255,255,0.5);
   padding: 20px 40px;
+  min-height: 150px;
 }
 .footer-item:first-child{
   border-left:rgba(0,0,0,0);
@@ -353,6 +354,18 @@ footer h3{
 footer p{
   font-family: "Myriad", sans-serif;
   color:#f9f9f9;
+}
+ul.reiseeksperten{
+  list-style: none;
+  color: #fff;
+}
+ul.reiseeksperten li{
+  list-style: none;
+  text-decoration: none;
+}
+
+ul.reiseeksperten a{
+  color: #fff;
 }
 /*==================CONTACT==================*/
 .contact-item {
