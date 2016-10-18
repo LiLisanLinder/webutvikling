@@ -296,8 +296,9 @@ header {
 }
 .fa-facebook:hover,
 .fa-twitter:hover,
-.fa-instagram:hover
-.fa-envelope:hover{
+.fa-instagram:hover,
+footer .fa-envelope:hover,
+#social .fa-envelope:hover{
   color: #0d202d;
 }
 .fa-twitter{
