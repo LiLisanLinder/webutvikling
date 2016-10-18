@@ -294,6 +294,12 @@ header {
   color: #fff;
   font-size: 50px;
 }
+.fa-facebook:hover,
+.fa-twitter:hover,
+.fa-instagram:hover
+.fa-envelope:hover{
+  color: #0d202d;
+}
 .fa-twitter{
   color: #fff;
   font-size: 50px;
