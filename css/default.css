@@ -357,3 +357,10 @@ footer p{
   padding: 15px;
   margin: 15px auto;
 }
+.main-item {
+  width: 100%;
+  min-height:30px;
+  background: #f6f6f6;
+  padding: 15px;
+  margin: auto;
+}
